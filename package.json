@@ -1,0 +1,16 @@
+{
+  "name": "MonkoGate",
+  "version": "1.6.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified :(\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Lukas, Teun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-http-proxy": "^1.6.3"
+  }
+}
