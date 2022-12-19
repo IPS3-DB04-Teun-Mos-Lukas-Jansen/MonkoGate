@@ -10,5 +10,5 @@ app.use("/api/integration", proxy("http://localhost:81"));
 app.use(proxy('http://localhost:3000'));
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
+    console.log(`Monkogate listening at http://localhost:${port}`);
     });
